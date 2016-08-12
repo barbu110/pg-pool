@@ -1,0 +1,31 @@
+{
+	"name": "pg-pool",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"dependencies": {
+		"generic-pool": "^2.4.2",
+		"pg": "^6.1.0"
+	},
+	"devDependencies": {
+		"babel-eslint": "^6.1.2",
+		"eslint": "^3.2.2",
+		"expect.js": "^0.3.1",
+		"mocha": "^3.0.2",
+		"bluebird": "latest"
+	},
+	"scripts": {
+		"lint": "eslint -c .eslintrc.json ./",
+		"test": "npm run lint && mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/barbu110/pg-pool.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/barbu110/pg-pool/issues"
+	},
+	"homepage": "https://github.com/barbu110/pg-pool#readme"
+}
